@@ -129,6 +129,6 @@ python evaluation/evaluator.py
 | Execute for i in range(3): print(i)   | Printed output: 0 1 2     |
 | Search for use cases of LLMs          | Simulated list of results |
 
-![System Architecture](architecture%20diagram.png)
+![System Architecture](architecture_diagram.png)
 
 
