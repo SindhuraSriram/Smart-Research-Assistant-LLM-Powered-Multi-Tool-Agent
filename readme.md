@@ -4,7 +4,7 @@ The **Smart Research Assistant** is an AI-powered system designed to autonomousl
 
 ---
 
-## 🧠 What It Does
+## What It Does
 
 When a user inputs a multi-part natural language query (e.g.,  
 > _“Summarize this code, calculate an expression, run some Python, and search a topic”_)
@@ -19,33 +19,33 @@ the assistant:
 
 ---
 
-## 🧱 Key Features
+## Key Features
 
-### ✅ Task Planning
+### Task Planning
 - Breaks compound queries into discrete, logically ordered subtasks  
 - Determines which tool should handle each subtask (e.g., summarization, computation)  
 
-### 🧰 Integrated Tools
+### Integrated Tools
 - **Calculator**: Safely evaluates math expressions (e.g., `8 * (3 + 2)`)  
 - **Code Executor**: Runs lightweight Python snippets securely  
 - **Summarizer**: Provides concise summaries of input text  
 - **Search Module**: Simulates fetching contextual search results  
 
-### 🔄 Tool Router
+### Tool Router
 - Dynamically routes subqueries to the correct tool based on keyword patterns  
 - Uses pattern matching and context parsing to extract relevant segments  
 
-### 🧠 Memory Management
+### Memory Management
 - Logs every step: original query, tool outputs, final response  
 - Enables transparency and future context-aware improvements  
 
-### 🧪 Evaluation Suite
+### Evaluation Suite
 - Benchmarks the assistant’s reasoning, tool usage, and accuracy  
 - Measures success via task-by-task verification and scores  
 
 ---
 
-## 🛠️ Architecture Overview
+## Architecture Overview
 
 ```bash
 ai_agent_assessment/
@@ -67,7 +67,7 @@ ai_agent_assessment/
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Step 1: Clone and Set Up Environment
 
@@ -90,7 +90,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 💬 Example Query
+## Example Query
 
 Try this query to test all tools in action:
 
@@ -98,12 +98,12 @@ Try this query to test all tools in action:
 *Then calculate:* `12 * (5 + 7)`  
 *Also, search for:* common applications of LLMs
 
-## ✅ Expected Output
+## Expected Output
 
-* 📝 Code summary  
-* 🧮 Math result: 144  
-* 🧑‍💻 Python output: 0 1 2  
-* 🔍 Simulated search results for LLM applications
+* Code summary  
+* Math result: 144  
+* Python output: 0 1 2  
+* Simulated search results for LLM applications
 
 ## 🧪 Evaluation & Testing
 
@@ -113,14 +113,14 @@ Run the evaluation suite:
 python evaluation/evaluator.py
 ```
 
-### ✅ Evaluation Metrics
+### Evaluation Metrics
 
 * ✔️ Correctness of task planning
 * ✔️ Tool accuracy and reliability
 * ✔️ Clarity of final output
 * ✔️ Fault tolerance and graceful failure handling
 
-## 🧪 Example Benchmark Task Set
+## Example Benchmark Task Set
 
 | Task                                  | Expected Result           |
 |---------------------------------------|---------------------------|
@@ -132,3 +132,4 @@ python evaluation/evaluator.py
 ![System Architecture](architecture_diagram.png)
 
 
+[📄 View Sample Output (PDF)](output_sample.pdf)
