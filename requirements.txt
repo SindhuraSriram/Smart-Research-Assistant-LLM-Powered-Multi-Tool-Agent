@@ -1,0 +1,10 @@
+streamlit==1.35.0
+openai==1.61.1
+langchain==0.1.17
+tenacity==8.2.3
+requests==2.31.0
+
+# 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
+
+
+
