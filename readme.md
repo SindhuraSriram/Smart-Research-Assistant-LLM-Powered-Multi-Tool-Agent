@@ -66,3 +66,69 @@ ai_agent_assessment/
 │   └── sample_logs.txt     # Interaction logs
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
+
+## 🚀 Getting Started
+
+### Step 1: Clone and Set Up Environment
+
+```bash
+git clone https://github.com/yourusername/ai_agent_assessment.git
+cd ai_agent_assessment
+python -m venv venv
+source venv/bin/activate     # On Windows: venv\Scripts\activate
+```
+
+### Step 2: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 3: Run the Application
+
+```bash
+streamlit run app.py
+```
+
+## 💬 Example Query
+
+Try this query to test all tools in action:
+
+*Summarize this code:* `for i in range(3): print(i)`  
+*Then calculate:* `12 * (5 + 7)`  
+*Also, search for:* common applications of LLMs
+
+## ✅ Expected Output
+
+* 📝 Code summary  
+* 🧮 Math result: 144  
+* 🧑‍💻 Python output: 0 1 2  
+* 🔍 Simulated search results for LLM applications
+
+## 🧪 Evaluation & Testing
+
+Run the evaluation suite:
+
+```bash
+python evaluation/evaluator.py
+```
+
+### ✅ Evaluation Metrics
+
+* ✔️ Correctness of task planning
+* ✔️ Tool accuracy and reliability
+* ✔️ Clarity of final output
+* ✔️ Fault tolerance and graceful failure handling
+
+## 🧪 Example Benchmark Task Set
+
+| Task                                  | Expected Result           |
+|---------------------------------------|---------------------------|
+| Calculate 8 * (2 + 3)                 | 40                        |
+| Summarize a paragraph                 | Concise summary           |
+| Execute for i in range(3): print(i)   | Printed output: 0 1 2     |
+| Search for use cases of LLMs          | Simulated list of results |
+
+![System Architecture](architecture%20diagram.png)
+
+
